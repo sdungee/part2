@@ -1,1 +1,12 @@
 [2017-08-31T12:55:48+00:00] starting `/usr/local/heroku/bin/heroku update --autoupdate` from --help
+[2018-10-31T22:55:11+00:00] starting `/usr/local/heroku/bin/heroku update --autoupdate` from -v
+[2018-10-31T22:55:11+00:00] heroku-cli: Updating CLI...
+[2018-10-31T22:55:12+00:00] heroku-cli: Updating CLI from 6.14.4-d011db2 to 6.99.0-ec9edad... done
+waiting until 2018-10-31T23:55:11.070Z to update
+waiting until 2018-10-31T23:56:29.000Z to update
+waiting until 2018-10-31T23:57:18.000Z to update
+waiting until 2018-10-31T23:58:25.000Z to update
+waiting until 2018-10-31T23:59:11.000Z to update
+waiting until 2018-10-31T23:59:11.000Z to update
+waiting until 2018-11-01T00:00:41.000Z to update
+waiting until 2018-11-01T00:00:41.000Z to update

@@ -1216,3 +1216,24 @@ Cannot render console from 72.82.143.197! Allowed networks: 127.0.0.1, ::1, 127.
 Processing by PagesController#misc as HTML
   Rendered pages/misc.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 72.82.143.197 at 2018-10-31 22:23:00 +0000
+Cannot render console from 72.82.143.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (198.9ms)
+Completed 200 OK in 241ms (Views: 230.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/misc" for 72.82.143.197 at 2018-10-31 22:23:50 +0000
+Cannot render console from 72.82.143.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#misc as HTML
+  Rendered pages/misc.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 72.82.143.197 at 2018-10-31 22:23:53 +0000
+Cannot render console from 72.82.143.197! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#about as HTML
+  Rendered pages/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms)
