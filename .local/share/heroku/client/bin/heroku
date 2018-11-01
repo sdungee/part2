@@ -13,18 +13,4 @@ get_script_dir () {
   echo "$DIR"
 }
 DIR=$(get_script_dir)
-# normalize home directory
-CLI_HOME=$(cd && pwd)
-XDG_DATA_HOME=${XDG_DATA_HOME:="$CLI_HOME/.local/share"}
-BIN_PATH="$XDG_DATA_HOME/heroku/client/bin/heroku"
-if [ -z "$HEROKU_CLI_REDIRECTED" ] && [ -x "$BIN_PATH" ] && [[ ! "$DIR/heroku" -ef "$BIN_PATH" ]]; then
-  if [ "$DEBUG" == "*" ]; then
-    echo "$BIN_PATH" "$@"
-  fi
-  "$BIN_PATH" "$@"
-else
-  if [ "$DEBUG" == "*" ]; then
-    echo HEROKU_CLI_BINPATH="$DIR/heroku" "$DIR/node" "$DIR/heroku.js" "$@"
-  fi
-  HEROKU_CLI_BINPATH="$DIR/heroku" "$DIR/node" "$DIR/heroku.js" "$@"
-fi
+HEROKU_CLI_REDIRECTED=1 "$DIR/../7.18.3/bin/heroku" "$@"

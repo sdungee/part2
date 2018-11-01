@@ -12,3 +12,19 @@ Run heroku help for a list of available commands.
  ▸    verson is not a heroku command.
  ▸    Perhaps you meant version
  ▸    Run heroku help for a list of available commands.
+Error: push is not a heroku command.
+Perhaps you meant pg:push
+Run heroku help for a list of available commands.
+    at Errors.error (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/engine/node_modules/cli-ux/lib/errors.js:62:23)
+    at action.pause (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/engine/node_modules/cli-ux/lib/index.js:65:32)
+    at SpinnerAction.pause (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/engine/node_modules/cli-ux/lib/action/base.js:100:21)
+    at CLI.error (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/engine/node_modules/cli-ux/lib/index.js:64:21)
+    at NotFound.<anonymous> (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/engine/lib/not_found.js:27:30)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/ubuntu/.local/share/heroku/client/node_modules/tslib/tslib.js:104:62)
+    at <anonymous>
+ ▸    push is not a heroku command.
+ ▸    Perhaps you meant pg:push
+ ▸    Run heroku help for a list of available commands.
+[2018-11-01T00:49:36+00:00] heroku-cli: Updating CLI...
+[2018-11-01T00:49:36+00:00] heroku-cli: Updating CLI from 6.99.0-ec9edad to 7.18.3...
